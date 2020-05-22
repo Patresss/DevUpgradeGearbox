@@ -1,9 +1,15 @@
 plugins {
     kotlin("jvm") version "1.3.72"
+    id("com.adarshr.test-logger") version "2.0.0"
+    application
 }
 
 group = "com.patres"
 version = "1.0-SNAPSHOT"
+
+application {
+    mainClassName = "com.patres.gearbox.GearboxApplicationKt"
+}
 
 repositories {
     mavenCentral()
