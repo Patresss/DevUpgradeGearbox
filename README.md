@@ -17,9 +17,21 @@ To run tests, execute the following command:
     
     
 ## Tests
-Using [Kotest](https://github.com/kotest/kotest)
+The tests have been prepared using the [Kotest](https://github.com/kotest/kotest) tool
 
 ![](https://github.com/Patresss/DevUpgradeGearbox/blob/master/screenshoot/tests.PNG)
+
+## Characteristics 
+| Drive Mode | Eco | Comfort | Sport |
+| --- | :---: | :---: | :---: |
+| Reduce gear (RPM) | 1000 | 1000 | 1500 |
+| Reduce gear - braking (RPM) | 1500 | 2000 | 3000|
+| Increase gear (RPM) | 2000 | 2500 | 5000 |
+| Basic kick down (RPM) | - | 4500 | 5000 |
+| Basic kick down (threshold) | - | 0.5 | 0.5  |
+| Super kick down (RPM) | - | - | 5000 |
+| Super kick down (threshold) | - | - | 0.7 |
+
 
 ## Simulation
 
